@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+    .info {
+        padding-left: 5rem;
+    }
+
+    .objeto {
+        width: 18rem;
+    }
+
+    .page2 {
+        flex-direction: column;
+    }
+
+    .myimg>img {
+        width: 250px;
+    }
+
+    .myimg {
+        margin-bottom: 50px;
+    }
+
+    .mydesc {
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .aboutme {
+        margin: auto;
+        font-size: 25px;
+    }
+
+    .content-page3 {
+        margin-top: 100px;
+    }
+
+    .page3-top-titulo {
+        font-size: 30px;
+    }
+
+    .content-page3-C>img {
+        width: 200px;
+    }
+
+    .content-page3-L>ul>li>p,
+    .content-page3-R>ul>li>p {
+        font-size: 16px;
+    }
+
+    .page4-top-titulo {
+        font-size: 30px;
+    }
+    .page4-projetos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    footer
+    {
+        height: 30vh;
+    }
+
+    .topo
+    {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media (max-width: 425px) { */
+@media (max-width: 570px) {
+    .nav
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+    }
+
+    .page1,.page2,.page3,.page4
+    {
+        height: 120vh;
+    }
+    .cabecalho
+    {
+        height: 80px;
+    }
+    .nav
+    {
+        position: absolute;
+        top: 200px;
+        width: 350px;
+        justify-content: center;
+    }
+    .info{
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100vw;
+    }
+    .mostruario {
+        display: none;
+    }
+    
+    .content-page3 {
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .page3-top-titulo {
+        font-size: 30px;
+    }
+    .content-page3-C
+    {
+        display: none;
+    }
+    .content-page3-L>ul>li>p,
+    .content-page3-R>ul>li>p {
+        font-size: 16px;;
+    }
+
+    .page4
+    {
+        height: max-content;
+    }
+    .page4-top-titulo {
+        font-size: 30px;
+    }
+    .page4-projetos {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
