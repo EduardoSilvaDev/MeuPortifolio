@@ -14,7 +14,7 @@ body
 /* PAGE 1 */
 .page1, .page3 {
     background: #27323E;
-    height: 100vh;
+    height: max-content;
 }
 .cabecalho
 {
@@ -164,9 +164,13 @@ body
     justify-content: center;
     align-items: center;
     padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    height: min-content;
 
     border-radius: 50%;
-    /* background: #fff; */
     background: linear-gradient(to bottom,#ffff,#b8973e);
     box-shadow: 0 0 5px 1px #6594c7;
 }
@@ -199,14 +203,17 @@ body
 {
     /* background: purple; */
     width: 50%;
-    height: 50%;
+    height: 60%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    padding: 20px;
 }
 .objeto
 {
-    width: 300px;
+    /* background: red; */
+    max-height: 100%;
+    width: auto;
 }
 
 /* PAGE 2 */
@@ -217,6 +224,7 @@ body
     align-items: center;
     background: #212529;
     height: 100vh;
+    padding: 30px;
 }
 .myimg
 {
@@ -266,10 +274,13 @@ body
 }
 
 /* page 3 */
+.page3
+{
+    padding: 50px;
+}
 .page3-top
 {
     height: 100px;
-    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;

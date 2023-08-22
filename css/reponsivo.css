@@ -4,11 +4,12 @@
     }
 
     .objeto {
-        width: 18rem;
+        width: 15rem;
     }
 
     .page2 {
         flex-direction: column;
+        height: 120vh;
     }
 
     .myimg>img {
@@ -73,11 +74,6 @@
 
 
 
-
-
-
-
-
 /* @media (max-width: 425px) { */
 @media (max-width: 570px) {
     .nav
@@ -89,9 +85,9 @@
         display: block;
     }
 
-    .page1,.page2,.page3,.page4
+    .page1,.page2,.page3
     {
-        height: 120vh;
+        height: max-content;
     }
     .cabecalho
     {
